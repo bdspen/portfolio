@@ -43,6 +43,21 @@ h6 {
     height: 267px;
     width: auto;
 }
+/*fade in borders for picture links*/
+img#face:hover{
+    border: 1px solid;
+}
+img#connect:hover{
+    border: 1px solid;
+}
+img#connect{
+    border-color: #000;
+    transition: border-color .3s ease;
+}
+img#face{
+    border-color: #000;
+    transition: border-color .3s ease;
+}
 
 p {
     font-family: 'Source Sans Pro', sans-serif;    margin: 0 0 25px;
